@@ -37,20 +37,27 @@
     <Folder Include="Application\Interfaces\" />
     <Folder Include="Application\Mappers\" />
     <Folder Include="Application\Models\" />
+    <Folder Include="Application\Entities\" />
     <Folder Include="Application\Pipelines\" />
     <Folder Include="Application\Validators\" />
+    <Folder Include="Domain\Aggegates\Entities\" />
     <Folder Include="Domain\Interfaces\" />
+    <Folder Include="Domain\Mappers\" />
+    <Folder Include="Domain\Models\" />
+    <Folder Include="Domain\Pipelines\" />
     <Folder Include="Domain\Services\" />
-    <Folder Include="Domain\Specifications\" />
+    <Folder Include="Domain\Aggegates\Specifications\" />
     <Folder Include="Domain\Validators\" />
-    <Folder Include="Domain\ValueObjects\" />
+    <Folder Include="Domain\Aggegates\ValueObjects\" />
     <Folder Include="Infrastructure\Data\DBContexts\" />
     <Folder Include="Infrastructure\Data\Migrations\" />
     <Folder Include="Infrastructure\Data\EF-Diagrams\" />
     <Folder Include="Infrastructure\Helpers\" />
+    <Folder Include="Infrastructure\Entities\" />
+    <Folder Include="Infrastructure\Interfaces\" />
     <Folder Include="Infrastructure\Mappers\" />
     <Folder Include="Infrastructure\Models\" />
-    <Folder Include="Infrastructure\Repositories\" />
+    <Folder Include="Infrastructure\Data\Repositories\" />
     <Folder Include="Infrastructure\Services\" />
     <Folder Include="Assets\" />
     <Folder Include="Presentation\" />
@@ -65,7 +72,21 @@
     <PackageReference Include="FluentAssertions" Version="6.12.0" />
     <PackageReference Include="FluentValidation" Version="11.9.2" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
-    <PackageReference Include="JunitXml.TestLogger" Version="3.1.12" />
+    <PackageReference Include="JunitXml.TestLogger" Version="4.0.254" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="Mapster.EFCore" Version="5.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <PackageReference Include="Microsoft.Extensions.Configuration" Version="8.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="8.0.2" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="8.0.0" />
@@ -89,6 +110,10 @@
     <None Update="nlog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="SimdLinq" />
   </ItemGroup>
 
 </Project>

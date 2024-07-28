@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
-using Microsoft.Extensions.Hosting;
+﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+
 using Spectre.Console;
 
 namespace CleanArch.Application.Services;
@@ -41,7 +41,7 @@ public class ConsoleService : IHostedService
                 {
                     _logger.LogInformation("Starting Logging process");
                     AnsiConsole.Write(new Markup("[bold yellow] Running the app... [/]"));
-                    Debug.WriteLine("Test");
+
                     _logger.LogInformation("Ending logging process");
                     AnsiConsole.Write(new Markup("[bold yellow] Finished... :face_with_open_mouth: [/]"));
                 }
