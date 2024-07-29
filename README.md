@@ -11,12 +11,12 @@ I have published this Template on Visual Studio Marketplace. You can [download](
 1. Preconfigured for Dependency Injection
 1. Preinstalled the following Nuget Packages:
 	1. Ardalis.GuardClauses
+	1. AutoMapper
+	1. Automapper.Collection.EntityFrameworkCore
 	1. Coverlet.Collector
 	1. FluentAssertions
 	1. FluentValidationq
 	1. JunitXml.TestLogger
-	1. Mapster
-	1. Mapster.EFCore
 	1. Microsoft.Extensions.Hosting
 	1. Microsoft.Extensions.Configuration
 	1. Microsoft.EntityFrameworkCore

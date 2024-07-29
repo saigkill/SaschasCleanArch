@@ -32,6 +32,10 @@
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include=".template.config\template.json" />
+  </ItemGroup>
 	
   <ItemGroup>
     <Folder Include="Application\Interfaces\" />
@@ -65,6 +69,8 @@
 
   <ItemGroup>
     <PackageReference Include="Ardalis.GuardClauses" Version="4.6.0" />
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="AutoMapper.Collection.EntityFrameworkCore" Version="10.0.0" />
     <PackageReference Include="coverlet.collector" Version="6.0.2">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -73,9 +79,6 @@
     <PackageReference Include="FluentValidation" Version="11.9.2" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
     <PackageReference Include="JunitXml.TestLogger" Version="4.0.254" />
-    <PackageReference Include="Mapster" Version="7.4.0" />
-    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
-    <PackageReference Include="Mapster.EFCore" Version="5.1.1" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="8.0.7" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.7">

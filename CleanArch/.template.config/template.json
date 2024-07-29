@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Sascha Manns",
+  "classifications": [ "Common", "Console" ],
+  "identity": "SaschaManns.SaschasCleanArch",
+  "name": "Clean Architecture Template for Console Apps",
+  "shortName": "saschascleanarch",
+  "sourceName": "saschascleanarch",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}
