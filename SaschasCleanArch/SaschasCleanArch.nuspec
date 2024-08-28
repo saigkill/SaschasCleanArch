@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>SaschaManns.SaschasCleanArch</id>
+    <title>Clean Architecture Solution for Console</title>
+    <version>3.3.0</version>
+    <authors>Sascha Manns</authors>
+    <description>
+      The Clean Architecture Project Template for Console popularized by Sascha Manns. Provides a great starting point for modern and/or DDD solutions built with .NET 8 and C# 12.
+    </description>
+    <language>en-US</language>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/saigkill/SaschasCleanArch</projectUrl>    
+    <packageTypes>
+      <packageType name="Template" />
+    </packageTypes>
+    <tags>Console "Clean Architecture" ddd domain-driven-design clean-architecture clean architecture SOLID</tags>    
+    <readme>README.md</readme>
+  </metadata>
+  <files>
+    <file src=".\**" target="content" exclude="**\bin\**;**\obj\**;**\.git\**;**\.github\**;**\*.user;**\.vs\**;**\.vscode\**;**\.gitignore;**\sample\**" />
+    <file src="README.md" />
+  </files>
+</package>

@@ -2,7 +2,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # 17
 VisualStudioVersion = 17.11.35118.90
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CleanArch", "CleanArch\CleanArch.csproj", "{E4876D69-EA55-407F-9EB0-34F0D44B5C02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaschasCleanArch", "SaschasCleanArch\SaschasCleanArch.csproj", "{E4876D69-EA55-407F-9EB0-34F0D44B5C02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

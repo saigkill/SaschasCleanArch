@@ -1,9 +1,8 @@
 ﻿using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
 using Spectre.Console;
 
-namespace CleanArch.Application.Services;
+namespace Application.Services;
 
 /// <summary>
 /// Class ConsoleService. This is the starting point for our application.

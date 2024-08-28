@@ -1,10 +1,17 @@
 # Saschas Clean Architecture Project Template
 
-This is a template for a clean architecture project in C# Console. It is based on the clean architecture principles by Uncle Bob. 
+This is a template for a clean architecture project in C# Console. 
 The project is structured in a way that it is easy to understand and to extend. It is also easy to test and to maintain.
 
-I have published this Template on Visual Studio Marketplace. You can [download](https://marketplace.visualstudio.com/search?term=SaschaManns&target=VS&category=All%20categories&vsVersion=&sortBy=Relevance) it from there and use it in your projects.
+The repository for this template can be found [here](https://github.com/saigkill/SaschasCleanArch).
 
+I have published this Template on Nuget. You can [download](https://www.nuget.org/packages/SaschaManns.SaschasCleanArch/3.2.0) it from there and use it in your projects.
+
+To install the template, run the following command in the terminal:
+
+```powershell
+dotnet new -i SaschaManns.SaschasCleanArch
+```
 
 ## Features
 
@@ -17,6 +24,7 @@ I have published this Template on Visual Studio Marketplace. You can [download](
 	1. FluentAssertions
 	1. FluentValidationq
 	1. JunitXml.TestLogger
+    1. Meziantou.Analyzer
 	1. Microsoft.Extensions.Hosting
 	1. Microsoft.Extensions.Configuration
 	1. Microsoft.EntityFrameworkCore
@@ -26,6 +34,7 @@ I have published this Template on Visual Studio Marketplace. You can [download](
 	1. Microsoft.EntityFrameworkCore.Tools
 	1. NLog
 	1. NLog.Extensions.Logging
+    1. Roslynator.Analyzers
 	1. Sentry
 	1. Sentry.Extensions.Logging
 	1. SimdLinq
@@ -79,7 +88,7 @@ In Program.cs a host service is set up (`ConsoleService`). This step was conside
 
 ### Configuration
 
-The configuration is done via the `appsettings.json` file. Here you can adjust the database connection and the other stuff.
+The configuration is done via the `appsettings.json` file. Here you can adjust the database connection and the other stuff. This template delivers a AppSettings class, which can be used to follow the Options Pattern.
 
 Also, the configuration of the logging is done via the `nlog.config` file.
 
